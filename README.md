@@ -97,6 +97,10 @@ This project serves as a learning tool to understand the mechanics of ransomware
 
 **Disclaimer** : The author is not responsible for any misuse or damage caused by the use of this code. Use at your own risk.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 
   
 
