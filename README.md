@@ -41,7 +41,7 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
 5. A success message is printed, and the user is notified via a GUI popup.
 6. If the secret phrase is incorrect, the decryption fails, and a warning message is displayed.
 
-## Code Example
+
 
 ## Requirements
 
@@ -52,3 +52,34 @@ To run this project, you need the following:
   ```bash
   pip install cryptography
   ```
+- `tkinter` for GUI notifications (usually included with Python installations).
+
+##How to Run
+1. Clone or download the repository.
+2. Navigate to the project directory.
+3. Run the encryption script:
+   ```bash
+   python3 ransomware.py
+   ```
+  this will encrypt all the files in the Project directory.
+4. To decrypt, use:
+   ```bash
+     python3 Decrypt.py
+   ```
+  this will decrypt all the files in the Project directory.
+
+##Conclusion
+This project serves as a learning tool to understand the mechanics of ransomware. It highlights the importance of cybersecurity practices, such as regular backups and secure file handling. Always remember to keep your systems updated and be cautious of suspicious links and attachments.
+
+*Disclaimer:* The author is not responsible for any misuse or damage caused by the use of this code. Use at your own risk.
+
+
+  
+
+
+
+
+
+
+  
+  
