@@ -25,14 +25,23 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
   
 ## How It Works
 
-1. **Encryption**:
-   - The script scans the current directory for files to encrypt.
-   - It generates a symmetric encryption key and saves it in `ransom.txt`.
-   - Each file's contents are encrypted using the Fernet symmetric encryption algorithm.
+### Encryption Process:
+1. The script scans the current directory for files to encrypt.
+2. It generates a symmetric encryption key using the `Fernet` encryption algorithm from the `cryptography` library.
+3. The encryption key is stored in the `ransom.txt` file.
+4. All files except the script files (`ransomware.py`, `Decrypt.py`, and `ransom.txt`) are encrypted.
+5. The contents of the selected files are replaced with their encrypted versions.
+6. A message is printed to the console, and a GUI notification warns the user that their files have been encrypted.
 
-2. **Decryption**:
-   - The decryption script prompts the user for a secret key.
-   - If the provided key matches the expected hash, it decrypts the files using the saved encryption key.
+### Decryption Process:
+1. The `Decrypt.py` script prompts the user to input a secret phrase.
+2. The phrase is hashed using `SHA-256` and compared to a predefined secret hash.
+3. If the phrase is correct, the script retrieves the encryption key from the `ransom.txt` file.
+4. The encrypted files are decrypted and restored to their original state.
+5. A success message is printed, and the user is notified via a GUI popup.
+6. If the secret phrase is incorrect, the decryption fails, and a warning message is displayed.
+
+## Code Example
 
 ## Requirements
 
