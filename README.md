@@ -52,7 +52,7 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
      open(file, "wb").write(encrypted_contents)
 ```
    
-  ![Ransomware Attack](malware.png)
+  ![Ransomware Attack](crime.jpg)
 
 
 ### Decryption Process:
