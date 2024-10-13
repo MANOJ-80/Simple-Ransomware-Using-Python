@@ -56,7 +56,7 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
 6. If the secret phrase is incorrect, the decryption fails, and a warning message is displayed.
 
    
-#### Code Snippet (Encryption):
+#### Code Snippet (Decryption):
 ```python
 if hashlib.sha256(user_input.encode()).hexdigest() == secret_hash:
     for file in files:
