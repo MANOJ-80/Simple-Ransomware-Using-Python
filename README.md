@@ -62,6 +62,7 @@ To run this project, you need the following:
    python3 ransomware.py
    ```
   this will encrypt all the files in the Project directory.
+  
 4. To decrypt, use:
    ```bash
    python3 Decrypt.py
