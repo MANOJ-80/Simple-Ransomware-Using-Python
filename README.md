@@ -42,3 +42,4 @@ To run this project, you need the following:
 - `cryptography` library (install via pip):
   ```bash
   pip install cryptography
+  ```
