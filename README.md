@@ -74,7 +74,7 @@ To run this project, you need the following:
 ## Conclusion
 This project serves as a learning tool to understand the mechanics of ransomware. It highlights the importance of cybersecurity practices, such as regular backups and secure file handling. Always remember to keep your systems updated and be cautious of suspicious links and attachments.
 
-### Disclaimer: The author is not responsible for any misuse or damage caused by the use of this code. Use at your own risk.
+** Disclaimer: ** The author is not responsible for any misuse or damage caused by the use of this code. Use at your own risk.
 
 
   
