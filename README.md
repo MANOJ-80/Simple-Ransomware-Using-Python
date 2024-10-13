@@ -5,6 +5,8 @@
 ## What is Ransomware?
 
 Ransomware is a type of malicious software (malware) that encrypts a user's files or locks them out of their system, rendering the data inaccessible until a ransom is paid. It typically spreads through phishing emails, malicious links, or software vulnerabilities. Once activated, ransomware will encrypt files and demand payment, often in cryptocurrency, to provide the decryption key.
+![Ransomware Attack]([https://linktoimage.com/ransomware.jpg](https://pixabay.com/vectors/crime-hacker-computer-ransomware-7717809/))
+
 
 ## Purpose of This Project
 
