@@ -49,7 +49,7 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
 
 ### Decryption Process:
 1. The `Decrypt.py` script prompts the user to input a secret phrase.
-2. The phrase is hashed using `SHA-256` and compared to a predefined secret hash.
+2. The phrase is hashed using `SHA-256` and compared to a predefined secret hash('The secret for this attack is **ransom**').
 3. If the phrase is correct, the script retrieves the encryption key from the `ransom.txt` file.
 4. The encrypted files are decrypted and restored to their original state.
 5. A success message is printed, and the user is notified via a GUI popup.
