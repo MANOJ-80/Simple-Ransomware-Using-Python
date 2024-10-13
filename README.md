@@ -54,7 +54,7 @@ To run this project, you need the following:
   ```
 - `tkinter` for GUI notifications (usually included with Python installations).
 
-##How to Run
+## How to Run
 1. Clone or download the repository.
 2. Navigate to the project directory.
 3. Run the encryption script:
@@ -64,11 +64,11 @@ To run this project, you need the following:
   this will encrypt all the files in the Project directory.
 4. To decrypt, use:
    ```bash
-     python3 Decrypt.py
+   python3 Decrypt.py
    ```
   this will decrypt all the files in the Project directory.
 
-##Conclusion
+## Conclusion
 This project serves as a learning tool to understand the mechanics of ransomware. It highlights the importance of cybersecurity practices, such as regular backups and secure file handling. Always remember to keep your systems updated and be cautious of suspicious links and attachments.
 
 *Disclaimer:* The author is not responsible for any misuse or damage caused by the use of this code. Use at your own risk.
