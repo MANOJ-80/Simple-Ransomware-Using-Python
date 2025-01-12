@@ -8,7 +8,7 @@ Ransomware is a type of malicious software (malware) that encrypts a user's file
 
 ![Ransomware Attack](ransomware.jpg)
 
-
+  
 
 
 ## Purpose of This Project
